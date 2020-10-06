@@ -2,14 +2,12 @@
 {% block title %}Записи сообщества {{ group }}{% endblock %}
 {% block header %}
 
-<h1>
-    {{ group }}
-</h1>
+
 
 {% endblock %}
 
 {% block content %}
-
+    <h1>{{ group }}</h1>
     <p>
        {{ group.description | linebreaksbr }}
     </p>
