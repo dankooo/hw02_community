@@ -14,8 +14,12 @@ __pycache__/
 
 *.sublime-project
 *.sublime-workspace
-
+.tests
+.tests/
 static/
 posts/static/
-
+.users/
+.users
+.templates/registration
+.templates/registration/
 db.sqlite3
