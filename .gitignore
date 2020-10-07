@@ -3,7 +3,7 @@ env/
 venv/
 .venv
 .venv/
-.vscode
+,vscode
 __pycache__/
 *.py[cod]
 
@@ -14,12 +14,8 @@ __pycache__/
 
 *.sublime-project
 *.sublime-workspace
-.tests
-.tests/
+
 static/
 posts/static/
-.users/
-.users
-.templates/registration
-.templates/registration/
+
 db.sqlite3
